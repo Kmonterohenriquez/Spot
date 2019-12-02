@@ -14,7 +14,7 @@ function Navbar() {
                         <li><Link to='#'>services</Link></li>
                         <li>Pages<i className='fas fa-sort-down'></i></li>
                         <li><Link to='#'>blog</Link></li>
-                        <button>submit project</button>
+                        <button className='primary-btn'>submit project</button>
                     </ul>
                 </nav>
             </div>
