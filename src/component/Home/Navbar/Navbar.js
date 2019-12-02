@@ -1,20 +1,25 @@
-import React from 'react'
-
-export default  function Navbar (){
-    return (
-        <header className>
+import React from 'react';
+import './Navbar.css'
+import { Link } from 'react-router-dom'
+function Navbar() {
+	return (
+		<header className='Navbar'>
+            <div className='Navbar-container container'>
+                <p id='logo'><i className="line-logo fas fa-grip-lines-vertical"></i>Spot</p>
                 <nav>
                     <ul>
-                        <li>home</li>
-                        <li>about</li>
-                        <li>team</li>
-                        <li>services</li>
-                        <li>Pages<i className="fas fa-sort-down"></i></li>
-                        <li>blog</li>
+                        <li><Link to='#' id='active'>home</Link></li>
+                        <li><Link to='#'>about</Link></li>
+                        <li><Link to='#'>team</Link></li>
+                        <li><Link to='#'>services</Link></li>
+                        <li>Pages<i className='fas fa-sort-down'></i></li>
+                        <li><Link to='#'>blog</Link></li>
                         <button>submit project</button>
                     </ul>
                 </nav>
-        </header>
-        )
+            </div>
+		</header>
+	);
 }
 
+export default Navbar

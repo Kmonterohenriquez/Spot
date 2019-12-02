@@ -1,0 +1,69 @@
+.Navbar-container {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: columns;
+          flex-direction: columns;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navbar-container #logo {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.Navbar-container #logo .line-logo {
+  color: #1089ff;
+  font-weight: bolder;
+}
+
+.Navbar-container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navbar-container nav ul li {
+  list-style: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.Navbar-container nav ul li a {
+  padding: 25px 12px;
+  color: #121217;
+}
+
+.Navbar-container nav ul li i {
+  margin-left: 5px;
+  color: #121217;
+}
+
+.Navbar-container nav ul button {
+  border-style: none;
+  border-radius: 3px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+  background: #1089ff;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#active {
+  color: #1089ff;
+}
+/*# sourceMappingURL=Navbar.css.map */
