@@ -1,0 +1,27 @@
+.Brands {
+  padding: 100px 0;
+}
+
+.Brands p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #EF3E36;
+  padding-bottom: 30px;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.Brands-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Brands-container img {
+  height: auto;
+  max-height: 32px;
+}
+/*# sourceMappingURL=Brands.css.map */
