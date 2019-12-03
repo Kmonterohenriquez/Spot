@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAGA,OAAO,CAAC,kEAAI",
+    "mappings": "AAIA,OAAO,CAAC,0EAAI;AAEZ,OAAO,CAAC,4EAAI",
     "sources": [
         "Fonts.sass"
     ],

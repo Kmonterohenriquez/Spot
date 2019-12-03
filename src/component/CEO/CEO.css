@@ -1,14 +1,25 @@
 .CEO {
-  margin: 60px 0;
-  padding: 10px;
+  position: relative;
+  padding: 150px;
 }
 
 .CEO .CEO-container {
-  position: relative;
-  padding: 70px;
+  z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.CEO .CEO-container .content {
+.CEO .CEO-container .join-content {
+  padding: 70px 0;
+  position: relative;
+  width: 990px;
+}
+
+.CEO .CEO-container .join-content .content {
   background: white;
   padding: 40px;
   width: 400px;
@@ -24,7 +35,7 @@
           flex-direction: column;
 }
 
-.CEO .CEO-container .content h1 {
+.CEO .CEO-container .join-content .content h1 {
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: .5px;
@@ -32,32 +43,44 @@
   line-height: 2.9rem;
 }
 
-.CEO .CEO-container .content p {
+.CEO .CEO-container .join-content .content p {
   margin-top: 30px;
   color: #818187;
-  letter-spacing: .5px;
+  font-weight: 300;
+  font-family: 'Playfair Display', serif;
   text-align: end;
   line-height: 1.7rem;
 }
 
-.CEO .CEO-container .content h5 {
+.CEO .CEO-container .join-content .content h5 {
   margin-top: 15px;
   color: #EF3E36;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: .75rem;
+  font-size: .80rem;
 }
 
-.CEO .CEO-container .content img {
+.CEO .CEO-container .join-content .content img {
   margin-top: 30px;
   height: 80px;
 }
 
-.CEO .CEO-container #ceo {
+.CEO .CEO-container .join-content #ceo {
   position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
   height: 100%;
+}
+
+#cube {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  height: 60px;
+  width: 60px;
+  border: 5px solid #EF3E36;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 /*# sourceMappingURL=CEO.css.map */

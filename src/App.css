@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,400&display=swap");
 .container {
   margin: 0 auto;
   width: 80%;
@@ -24,5 +24,6 @@
   color: white;
   background: #EF3E36;
   cursor: pointer;
+  letter-spacing: .5px;
 }
 /*# sourceMappingURL=App.css.map */
