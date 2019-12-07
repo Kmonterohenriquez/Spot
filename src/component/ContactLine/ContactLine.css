@@ -1,0 +1,64 @@
+.ContactLine {
+  padding: 100px 0;
+  background: #EF3E36;
+}
+
+.ContactLine-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 70px;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+}
+
+.ContactLine-left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  text-transform: uppercase;
+}
+
+.ContactLine-left-side #text-1 {
+  font-size: .9rem;
+}
+
+.ContactLine-left-side #text-2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.ContactLine-right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ContactLine-right-side button {
+  margin-right: 30px;
+}
+
+.ContactLine-right-side a {
+  color: white;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+}
+
+.ContactLine-right-side a:hover {
+  color: #e3e3e3;
+}
+/*# sourceMappingURL=ContactLine.css.map */

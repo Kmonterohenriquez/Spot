@@ -22,7 +22,7 @@ function OurWork() {
 							Suspendisse varius enim in elementum tristique.
 						</p>
 						<div className='card-link'>
-							<a href=''> live preview</a>
+							<a href='/'> live preview</a>
 						</div>
 					</div>
 				</div>
@@ -38,7 +38,7 @@ function OurWork() {
                                 Suspendisse varius enim in elementum tristique.
                             </p>
                             <div className='card-link'>
-                                <a href=''> live preview</a>
+                                <a href='/'> live preview</a>
                             </div>
                         </div>
 					</div>
@@ -56,7 +56,7 @@ function OurWork() {
                                 Suspendisse varius enim in elementum tristique.
                             </p>
                             <div className='card-link'>
-                                <a href=''> live preview</a>
+                                <a href='/'> live preview</a>
                             </div>
                         </div>
 					</div>
@@ -68,7 +68,7 @@ function OurWork() {
                                 Suspendisse varius enim in elementum tristique.
                             </p>
                             <div className='card-link'>
-                                <a href=''> live preview</a>
+                                <a href='/'> live preview</a>
                             </div>
                         </div>
 					</div>

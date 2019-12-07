@@ -8,6 +8,7 @@ import Brands from '../../component/Brands/Brands'
 import CEO from '../../component/CEO/CEO'
 import OurWork from '../../component/OurWork/OurWork'
 import Team from '../../component/Team/Team'
+import ContactLine from '../../component/ContactLine/ContactLine'
 
 class Home extends Component {
 	render() {
@@ -21,6 +22,7 @@ class Home extends Component {
 				<CEO />
 				<OurWork />
 				<Team />
+				<ContactLine />
 			</div>
 		);
 	}

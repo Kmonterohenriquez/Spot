@@ -12,7 +12,7 @@ function CEO() {
                         <h5>john doe - spot ceo</h5>
                         <img src="https://assets.website-files.com/5dcc0b70294b8865063dcae6/5dced5da792b962b36b88354_sing-p-500.png" alt="signature"/>
                     </div>
-                    <img id='ceo' src="https://assets.website-files.com/5dcc0b70294b8865063dcae6/5dd0f7a1edfe6a352f6adcb0_team-1-p-1080.jpeg" alt="CEO picture"/>
+                    <img id='ceo' src="https://assets.website-files.com/5dcc0b70294b8865063dcae6/5dd0f7a1edfe6a352f6adcb0_team-1-p-1080.jpeg" alt="boss"/>
                 </div>
             </div>
 		</div>
