@@ -1,3 +1,7 @@
+.Navbar {
+  border-bottom: #cacaca63 solid 1px;
+}
+
 .Navbar-container {
   height: 80px;
   display: -webkit-box;
