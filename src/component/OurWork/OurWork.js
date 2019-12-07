@@ -1,11 +1,12 @@
 import React from 'react';
 import './OurWork.css';
+import '../../App.css'
 
 function OurWork() {
 	return (
 		<div className='OurWork'>
 			<div className='container'>
-				<p className='title-2 checkout-text'>check out</p>
+				<p className='red-paragraph checkout-text'>check out</p>
 				<h1 className='title-1 ourwork-text'>Our Work</h1>
 				<div className='OurWork-grid-top'>
 					<div className='right-side'>
@@ -16,7 +17,7 @@ function OurWork() {
 					</div>
 					<div className='left-side'>
 						<p className='card-title'>core media</p>
-						<p className='card-text grey-text'>
+						<p className='card-text'>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							Suspendisse varius enim in elementum tristique.
 						</p>
@@ -32,7 +33,7 @@ function OurWork() {
 						</div>
 						<div className='card-content'>
                             <p className='card-title'>printing solution</p>
-                            <p className='grey-text'>
+                            <p className='card-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Suspendisse varius enim in elementum tristique.
                             </p>
@@ -50,7 +51,7 @@ function OurWork() {
 					<div className='box-3'>
 						<div className='card-content'>
                             <p className='card-title'>MYSTERIOUS</p>
-                            <p className='grey-text'>
+                            <p className='card-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Suspendisse varius enim in elementum tristique.
                             </p>
@@ -62,7 +63,7 @@ function OurWork() {
 					<div className='box-4'>
 						<div className='card-content'>
                             <p className='card-title'>flow interactive</p>
-                            <p className='grey-text'>
+                            <p className='card-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Suspendisse varius enim in elementum tristique.
                             </p>

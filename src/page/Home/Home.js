@@ -7,6 +7,7 @@ import Planning from '../../component/Planning/Planning'
 import Brands from '../../component/Brands/Brands'
 import CEO from '../../component/CEO/CEO'
 import OurWork from '../../component/OurWork/OurWork'
+import Team from '../../component/Team/Team'
 
 class Home extends Component {
 	render() {
@@ -19,6 +20,7 @@ class Home extends Component {
 				<Brands />
 				<CEO />
 				<OurWork />
+				<Team />
 			</div>
 		);
 	}

@@ -11,7 +11,7 @@ class Planning extends Component {
 						<img src={planning_img} alt='' />
 					</div>
 					<div className='right-side'>
-						<h3>WE LOVE WHAT WE DO</h3>
+						<h3 className='red-paragraph'>WE LOVE WHAT WE DO</h3>
 						<h1>LET'S MAKE YOUR <br/>DESIGN GREAT AGAIN</h1>
 						<p>
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
