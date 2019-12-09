@@ -10,7 +10,7 @@ const Pricing = () => {
 					<p className='Pricing-phrase red-paragraph '>
 						Best prices on the market
 					</p>
-					<p className='Pricing-title title-1'>Our pricing</p>
+					<h1 className='Pricing-title title-1'>Our pricing</h1>
 					<p className='Pricing-description grey-text'>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
 						saepe, culpa consectetur
