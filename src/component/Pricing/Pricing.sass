@@ -1,0 +1,73 @@
+@import '../../general style/Colors'
+.Pricing
+    background: #F0F4F7
+    padding: 70px 0
+    &-top-part
+        display: flex 
+        justify-content: center
+        align-items: center
+        flex-direction: column
+
+    &-phrase
+        margin-bottom: 10px
+
+
+
+    &-description
+        max-width: 600px
+        text-align: center
+
+
+.Pricing-grid
+    padding: 70px 0
+    display: grid
+    grid-gap: 20px
+    justify-items: center
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+
+    .price-info
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        padding: 40px 80px
+        border-radius: 20px
+        background: white
+        box-shadow: 2px 2px 15px #00000018
+
+        &:nth-child(1), &:nth-child(3)
+            margin-top: 40px
+        &:nth-child(2)
+            margin-bottom: 40px
+            
+            button  
+                border: $red 2px solid
+                // border-radius: 10px
+        
+            
+            
+        
+
+        .price span 
+            font-size: 1.4rem
+
+        .price
+            font-size: 2rem
+            margin-bottom: 30px
+
+        li     
+            color: $grey-text
+            font-weight: 300
+            list-style: none
+            line-height: 2rem
+            letter-spacing: .5px
+
+        button 
+            margin-top: 30px
+                 
+
+
+
+
+        
+

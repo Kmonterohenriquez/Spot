@@ -1,0 +1,94 @@
+.Pricing {
+  background: #F0F4F7;
+  padding: 70px 0;
+}
+
+.Pricing-top-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Pricing-phrase {
+  margin-bottom: 10px;
+}
+
+.Pricing-description {
+  max-width: 600px;
+  text-align: center;
+}
+
+.Pricing-grid {
+  padding: 70px 0;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.Pricing-grid .price-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px 80px;
+  border-radius: 20px;
+  background: white;
+  -webkit-box-shadow: 2px 2px 15px #00000018;
+          box-shadow: 2px 2px 15px #00000018;
+}
+
+.Pricing-grid .price-info:nth-child(1), .Pricing-grid .price-info:nth-child(3) {
+  margin-top: 40px;
+}
+
+.Pricing-grid .price-info:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+.Pricing-grid .price-info:nth-child(2) button {
+  border: #EF3E36 2px solid;
+}
+
+.Pricing-grid .price-info .price span {
+  font-size: 1.4rem;
+}
+
+.Pricing-grid .price-info .price {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.Pricing-grid .price-info li {
+  color: #818187;
+  font-weight: 300;
+  list-style: none;
+  line-height: 2rem;
+  letter-spacing: .5px;
+}
+
+.Pricing-grid .price-info button {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=Pricing.css.map */
