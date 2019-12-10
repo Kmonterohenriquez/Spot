@@ -11,6 +11,8 @@ import Team from '../../component/Team/Team'
 import ContactLine from '../../component/ContactLine/ContactLine'
 import Pricing from '../../component/Pricing/Princing'
 import Blogs from '../../component/Blogs/Blogs'
+import OurLocation from '../../component/OurLocation/OurLocation'
+import ContactUs from '../../component/ContractUs/ContactUs'
 
 class Home extends Component {
 	render() {
@@ -27,7 +29,8 @@ class Home extends Component {
 				<ContactLine />
 				<Pricing />
 				<Blogs />
-				
+				<OurLocation />
+				<ContactUs/>
 			</div>
 		);
 	}

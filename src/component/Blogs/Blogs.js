@@ -32,7 +32,7 @@ const Blogs =()=>{
                             <img src={blogPic} alt="#"/>
                             <p className="blog-date red-paragraph">December 08, 2020</p>
                             <div className='bottom'>
-                                <div className="blog-category">lifestyle</div>
+                                <div className="blog-category">science</div>
                                 <div className="blog-title">Lorem ipsum dolor sit.</div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Blogs =()=>{
                             <img src={blogPic} alt="#"/>
                             <p className="blog-date red-paragraph">December 08, 2020</p>
                             <div className='bottom'> 
-                                <div className="blog-category">lifestyle</div>
+                                <div className="blog-category">technology</div>
                                 <div className="blog-title">Lorem ipsum dolor sit.</div>
                             </div>
                         </div>
