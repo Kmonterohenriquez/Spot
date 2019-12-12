@@ -68,7 +68,7 @@
 }
 
 .Pricing-grid .price-info:nth-child(2) button {
-  border: #EF3E36 2px solid;
+  border: green 2px solid;
 }
 
 .Pricing-grid .price-info .price span {

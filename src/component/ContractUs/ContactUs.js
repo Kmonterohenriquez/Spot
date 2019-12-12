@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './ContactUs.css'
 
 class ContactUs extends Component {
     state = {  }
@@ -10,16 +10,16 @@ class ContactUs extends Component {
                     <p>contact us</p>
                     <h1>Submit a Project</h1>
                     <form action="">
-                        <label htmlFor="fullname">Full Name</label>
-                        <input id="fullname" type="text" placeholder='Fullname'/>
-                        <label htmlFor="email">Email</label>
-                        <input id="email" type="email" placeholder='123@company.com'/>
-                        <label htmlFor="timeline">timeline</label>
-                        <input id="timeline" type="text" placeholder='timeline'/>
-                        <label htmlFor="budget">Budget</label>
-                        <input type="text" placeholder='$0'/>
-                        <label>I need help with...</label>
-                        <input type="checkbox" />
+                        <label htmlFor="fullname">Full Name</label><br/>
+                        <input id="fullname" type="text" placeholder='Fullname'/><br/>
+                        <label htmlFor="email">Email</label><br/>
+                        <input id="email" type="email" placeholder='123@company.com'/><br/>
+                        <label htmlFor="timeline">timeline</label><br/>
+                        <input id="timeline" type="text" placeholder='timeline'/><br/>
+                        <label htmlFor="budget">Budget</label><br/>
+                        <input type="text" placeholder='$0'/><br/>
+                        <label>I need help with...</label><br/>
+                        <input type="checkbox" /><br/>
                     </form>
                 </div>
             </div>

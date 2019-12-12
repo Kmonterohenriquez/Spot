@@ -6,6 +6,12 @@
   max-width: 1200px;
 }
 
+.lg-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1300px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +32,7 @@
 
 .red-paragraph {
   text-transform: uppercase;
-  color: #EF3E36;
+  color: green;
   font-weight: 700;
   font-size: .8rem;
   letter-spacing: .5px;
@@ -34,7 +40,7 @@
 }
 
 .card-title {
-  color: #EF3E36;
+  color: green;
   letter-spacing: 1px;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -72,7 +78,7 @@
   text-transform: uppercase;
   font-size: 13px;
   color: white;
-  background: #EF3E36;
+  background: green;
   cursor: pointer;
   letter-spacing: .5px;
   -webkit-transition: background .3s ease-in;
@@ -80,7 +86,7 @@
 }
 
 .primary-btn:hover {
-  background: #c91810;
+  background: #003400;
 }
 
 .secondary-btn {
@@ -89,7 +95,7 @@
   padding: 15px 25px;
   text-transform: uppercase;
   font-size: 13px;
-  color: #EF3E36;
+  color: green;
   background: white;
   cursor: pointer;
   letter-spacing: .5px;
@@ -212,7 +218,7 @@
   border-radius: 50%;
   height: 35px;
   width: 35px;
-  background: #EF3E36;
+  background: green;
   margin-right: 10px;
   -webkit-transition: background .5s , -webkit-transform .5s;
   transition: background .5s , -webkit-transform .5s;
@@ -226,7 +232,7 @@
 }
 
 .grid-team .social-media .circle:hover {
-  background: #e01b12;
+  background: #004d00;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }

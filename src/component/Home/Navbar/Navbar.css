@@ -25,7 +25,7 @@
 }
 
 .Navbar-container #logo .line-logo {
-  color: #EF3E36;
+  color: green;
   font-weight: bolder;
 }
 
@@ -60,6 +60,6 @@
 }
 
 #active {
-  color: #EF3E36;
+  color: green;
 }
 /*# sourceMappingURL=Navbar.css.map */

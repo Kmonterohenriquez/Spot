@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import Navbar from '../../component/Home/Navbar/Navbar';
 import Upperline from '../../component/Home/Upperline/Upperline';
+import Navbar from '../../component/Home/Navbar/Navbar';
+import Showcase from '../../component/Showcase/Showcase'
 import Services from '../../component/Services/Services'
 import Planning from '../../component/Planning/Planning'
 import Brands from '../../component/Brands/Brands'
@@ -20,6 +21,7 @@ class Home extends Component {
 			<div className='Home'>
 				<Upperline />
 				<Navbar />
+				<Showcase />
 				<Services />
 				<Planning />
 				<Brands />
@@ -29,8 +31,8 @@ class Home extends Component {
 				<ContactLine />
 				<Pricing />
 				<Blogs />
-				<OurLocation />
 				<ContactUs/>
+				<OurLocation />
 			</div>
 		);
 	}

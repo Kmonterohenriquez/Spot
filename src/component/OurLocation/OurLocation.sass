@@ -1,9 +1,31 @@
 .OurLocation
     position: relative
-    height: 500px
+    height: 550px
+    // background: red
+    &-container
+        // padding: 30px 0
+        display: grid
+        // justify-items: center
+        // align-items: center
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr))
 
+    &-left-side
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        .address 
+            line-height: 2rem
+        
+        
+        img
+            margin: 30px 0
+
+        
     iframe 
-        height: 100%
-        position: absolute 
-        bottom: 0
-        right: 0
+        height: 550px
+        width: 100%
+        // position: absolute 
+        // bottom: 0
+        // right: 0
