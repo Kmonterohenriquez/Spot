@@ -25,7 +25,7 @@
 }
 
 .Navbar-container #logo .line-logo {
-  color: green;
+  color: #EF3E36;
   font-weight: bolder;
 }
 
@@ -59,7 +59,25 @@
   margin-left: 20px;
 }
 
+.Navbar-container .menu-icon {
+  color: #EF3E36;
+  font-size: 1.8rem;
+  display: none;
+}
+
 #active {
-  color: green;
+  color: #EF3E36;
+}
+
+@media (max-width: 600px) {
+  .Navbar-container {
+    height: 60px;
+  }
+  .Navbar-container .menu-icon {
+    display: block;
+  }
+  .Navbar nav {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Navbar.css.map */

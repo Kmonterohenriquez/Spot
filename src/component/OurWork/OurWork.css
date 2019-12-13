@@ -34,7 +34,7 @@
 
 .red-paragraph {
   text-transform: uppercase;
-  color: green;
+  color: #EF3E36;
   font-weight: 700;
   font-size: .8rem;
   letter-spacing: .5px;
@@ -42,7 +42,7 @@
 }
 
 .card-title {
-  color: green;
+  color: #EF3E36;
   letter-spacing: 1px;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -80,7 +80,7 @@
   text-transform: uppercase;
   font-size: 13px;
   color: white;
-  background: green;
+  background: #EF3E36;
   cursor: pointer;
   letter-spacing: .5px;
   -webkit-transition: background .3s ease-in;
@@ -88,7 +88,7 @@
 }
 
 .primary-btn:hover {
-  background: #003400;
+  background: #c91810;
 }
 
 .secondary-btn {
@@ -97,7 +97,7 @@
   padding: 15px 25px;
   text-transform: uppercase;
   font-size: 13px;
-  color: green;
+  color: #EF3E36;
   background: white;
   cursor: pointer;
   letter-spacing: .5px;
@@ -107,6 +107,71 @@
 
 .secondary-btn:hover {
   background: #ebebeb;
+}
+
+@media (max-width: 600px) {
+  .OurWork-grid-bottom {
+    padding: 80px 0;
+    grid-gap: 30px;
+        grid-template-areas: "box-1" "box-2" "box-3" "box-4";
+    -ms-grid-columns: repeat 1fr;
+        grid-template-columns: repeat 1fr;
+  }
+}
+
+.OurWork {
+  padding: 100px 0;
+  background: #F0F4F7;
+}
+
+.OurWork .checkout-text {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.OurWork .ourwork-text {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.OurWork .right-side {
+  background: grey;
+  position: relative;
+  overflow: hidden;
+  max-height: 550px;
+  height: 100%;
+}
+
+.OurWork .right-side img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.OurWork .OurWork-grid-top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 65% 35%;
+      grid-template-columns: 65% 35%;
+}
+
+.left-side {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
 }
 
 .OurWork-grid-bottom {
@@ -180,58 +245,26 @@
   height: 100%;
 }
 
-.OurWork {
-  padding: 100px 0;
-  background: #F0F4F7;
-}
-
-.OurWork .checkout-text {
-  text-align: center;
-  margin-bottom: 12px;
-}
-
-.OurWork .ourwork-text {
-  text-align: center;
-  margin-bottom: 70px;
-}
-
-.OurWork .right-side {
-  background: red;
-  position: relative;
-  overflow: hidden;
-  max-height: 550px;
-  height: 100%;
-}
-
-.OurWork .right-side img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.OurWork .OurWork-grid-top {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 65% 35%;
-      grid-template-columns: 65% 35%;
-}
-
-.left-side {
-  padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: white;
+@media (max-width: 600px) {
+  .OurWork {
+    padding: 100px 0;
+  }
+  .OurWork .checkout-text {
+    margin-bottom: 10px;
+  }
+  .OurWork .ourwork-text {
+    margin-bottom: 50px;
+  }
+  .OurWork .OurWork-grid-top {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .grid-team {
+    -ms-grid-columns: ()[1fr];
+        grid-template-columns: repeat(1fr);
+  }
+  .OurWork-grid-bottom {
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=OurWork.css.map */

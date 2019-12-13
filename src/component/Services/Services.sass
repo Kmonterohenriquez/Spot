@@ -7,7 +7,9 @@
         width: 90%
         display: grid
         grid-template-columns: 1fr 1fr 1fr
-        // justify-content: space-between
+        grid-gap: 30px
+        justify-content: center
+        align-items: center
         
         .single-service
             max-width: 270px
@@ -39,3 +41,17 @@
     flex-direction: column
     button 
         margin-top: 40px
+
+@media (max-width: 600px)
+    .Services
+        &-grid
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr ))
+            
+            .single-service
+                display: flex
+                flex-direction: column
+                
+                h1 
+                    margin-top: 5px
+                    text-align: center
+            

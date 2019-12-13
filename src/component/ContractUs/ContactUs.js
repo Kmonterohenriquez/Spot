@@ -6,7 +6,7 @@ class ContactUs extends Component {
     render() {
         return (
             <div className="ContactUs">
-                <div className='container'>
+                <div className='ContactUs-container container'>
                     <p>contact us</p>
                     <h1>Submit a Project</h1>
                     <form action="">
@@ -18,8 +18,9 @@ class ContactUs extends Component {
                         <input id="timeline" type="text" placeholder='timeline'/><br/>
                         <label htmlFor="budget">Budget</label><br/>
                         <input type="text" placeholder='$0'/><br/>
-                        <label>I need help with...</label><br/>
-                        <input type="checkbox" /><br/>
+                        {/* <label>I need help with...</label><br/>
+                        <input type="checkbox" /><br/> */}
+                        <textarea name="" id="" cols="30" rows="6" placeholder='Please write some details about your request...'></textarea>
                     </form>
                 </div>
             </div>

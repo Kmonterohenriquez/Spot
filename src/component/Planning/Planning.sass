@@ -8,6 +8,7 @@
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr))
         grid-gap: 20px
         justify-items: center
+        overflow: hidden
 
         .left-side, .right-side 
             margin: 50px 0
@@ -38,3 +39,33 @@
                 line-height: 1.8rem
 
 
+@media (max-width: 600px)
+    .Planning
+
+        &-grid
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+
+        .left-side
+            img 
+                width: 300px
+        .left-side, .right-side 
+            margin: 0
+
+        .right-side
+            padding: 0px
+            // display: flex 
+            // justify-content: center
+            // flex-direction: column
+            
+            h1 
+                font-size: 1.5rem
+                letter-spacing: 1px
+                line-height: 1.8rem
+            
+            p 
+                color: $grey-text
+                font-weight: 300
+                font-family: 'Playfair Display', serif
+                line-height: 1.8rem
+
+        

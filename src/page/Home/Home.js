@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 
 import Upperline from '../../component/Home/Upperline/Upperline';
@@ -27,12 +28,12 @@ class Home extends Component {
 				<Brands />
 				<CEO />
 				<OurWork />
-				<Team />
+				 <Team />
 				<ContactLine />
 				<Pricing />
 				<Blogs />
-				<ContactUs/>
-				<OurLocation />
+				{/*<ContactUs/>
+				<OurLocation /> */}
 			</div>
 		);
 	}

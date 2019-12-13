@@ -4,7 +4,7 @@ import './Pricing.css'
 const Pricing = () => {
 	return (
 		<div className='Pricing'>
-			<div className='Pricing container container'>
+			<div className='container'>
 
 				<div className='Pricing-top-part'>
 					<p className='Pricing-phrase red-paragraph '>
@@ -24,7 +24,6 @@ const Pricing = () => {
 						<img src="https://assets.website-files.com/5dcc0b70294b8865063dcae6/5dceb736646791ae20a144dd_icons8-web.svg" alt="basic plan"/>
 						
 						<p className='price'><span className='red-paragraph'>$</span> 990</p>
-						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor sit </li>
 						<li>Lorem ipsum dolor sit amet.</li>
 						<li className='test'>Lorem ipsum dolor sit amet.</li>
@@ -39,7 +38,6 @@ const Pricing = () => {
 						<p className='price'><span className='red-paragraph'>$</span> 1300</p>
 						<li>Lorem ipsum </li>
 						<li>Lorem ipsum dolor sit amet.</li>
-						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor </li>
 						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor </li>
@@ -50,7 +48,6 @@ const Pricing = () => {
 						<p className='price-info-title red-paragraph'>ultimate</p>
 						<img src="https://assets.website-files.com/5dcc0b70294b8865063dcae6/5dd4110c22bee1cedb4a65ab_icons8-responsive%20(1).svg" alt="premium plan"/>
 						<p className='price'><span className='red-paragraph'>$</span> 1700</p>
-						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor sit amet.</li>

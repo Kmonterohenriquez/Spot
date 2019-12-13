@@ -34,4 +34,16 @@
   font-size: 1.3rem;
   text-shadow: 0px 10px 10px #0000008f;
 }
+
+@media (max-width: 600px) {
+  .Showcase {
+    height: calc( 100vh - 500px);
+  }
+  .Showcase .content .Showcase-title {
+    font-size: 1.6rem;
+  }
+  .Showcase .content .Showcase-title-2 {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Showcase.css.map */

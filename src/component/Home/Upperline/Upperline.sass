@@ -6,7 +6,7 @@
 
     &-container
         @include center(space-between)
-        height: 50px
+        padding: 10px 0
         
         p
             font-size: .8rem
@@ -29,5 +29,12 @@
 
             &:hover 
                 background: $red
-            
+
+@media (max-width: 600px)
+    .Upperline
+        &-container
+            flex-direction: column
+        .social-media 
+            margin-top: 10px
+
         

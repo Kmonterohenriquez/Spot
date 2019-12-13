@@ -126,4 +126,22 @@
           justify-content: center;
   padding: 25px;
 }
+
+@media (max-width: 600px) {
+  .Blogs-top-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .Blogs-top-part .title-1 {
+    margin-bottom: 20px;
+  }
+}
 /*# sourceMappingURL=Blogs.css.map */

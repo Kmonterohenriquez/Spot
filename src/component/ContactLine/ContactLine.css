@@ -1,6 +1,6 @@
 .ContactLine {
   padding: 100px 0;
-  background: green;
+  background: #EF3E36;
 }
 
 .ContactLine-grid {
@@ -60,5 +60,25 @@
 
 .ContactLine-right-side a:hover {
   color: #e3e3e3;
+}
+
+@media (max-width: 600px) {
+  .ContactLine {
+    padding: 80px 0;
+    background: #EF3E36;
+  }
+  .ContactLine-grid {
+    grid-gap: 30px;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .ContactLine #text-1 {
+    text-align: center;
+  }
+  .ContactLine #text-2 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=ContactLine.css.map */

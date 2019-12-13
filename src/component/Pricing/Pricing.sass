@@ -1,7 +1,7 @@
 @import '../../general style/Colors'
 .Pricing
     background: #F0F4F7
-    padding: 70px 0
+    padding: 200px 0 100px
     &-top-part
         display: flex 
         justify-content: center
@@ -21,7 +21,7 @@
 .Pricing-grid
     padding: 70px 0
     display: grid
-    grid-gap: 20px
+    grid-gap: 50px
     justify-items: center
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
 
@@ -30,16 +30,17 @@
         justify-content: center
         align-items: center
         flex-direction: column
-        padding: 40px 80px
+        padding: 50px 0px
         border-radius: 20px
         background: white
         box-shadow: 2px 2px 15px #00000018
+        width: 100%
 
         &:nth-child(1), &:nth-child(3)
             margin-top: 40px
 
         &:nth-child(2)
-            margin-bottom: 40px
+            margin-bottom: 20px
             
             button  
                 border: $red 2px solid
@@ -63,7 +64,16 @@
                  
 
 
+@media (max-width: 600px)
+    .Pricing
+        padding: 150px 0 80px
+        
+    .Pricing-grid
 
+        grid-gap: 30px
+        .price-info
+            &:nth-child(1), &:nth-child(3), &:nth-child(2)
+                margin-top: 0px
 
         
 

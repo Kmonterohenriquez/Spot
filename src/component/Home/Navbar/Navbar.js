@@ -17,6 +17,7 @@ function Navbar() {
                         <button className='primary-btn'>submit project</button>
                     </ul>
                 </nav>
+                <i className="menu-icon fas fa-ellipsis-h"></i>
             </div>
 		</header>
 	);

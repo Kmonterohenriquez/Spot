@@ -1,1 +1,157 @@
-/* No CSS *//*# sourceMappingURL=ContactUs.css.map */
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.lg-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1300px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  outline: none;
+}
+
+* a {
+  text-decoration: none;
+}
+
+.title-1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  line-height: 2.9rem;
+}
+
+.red-paragraph {
+  text-transform: uppercase;
+  color: #EF3E36;
+  font-weight: 700;
+  font-size: .8rem;
+  letter-spacing: .5px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  color: #EF3E36;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.card-text {
+  font-size: 1rem;
+  letter-spacing: .5px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #818187;
+  font-family: 'Playfair Display', serif;
+}
+
+.card-link a {
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: #b5b5b9;
+}
+
+.grey-text {
+  margin-top: 30px;
+  color: #818187;
+  font-weight: 300;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.7rem;
+}
+
+.primary-btn {
+  border-style: none;
+  border-radius: 3px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+  background: #EF3E36;
+  cursor: pointer;
+  letter-spacing: .5px;
+  -webkit-transition: background .3s ease-in;
+  transition: background .3s ease-in;
+}
+
+.primary-btn:hover {
+  background: #c91810;
+}
+
+.secondary-btn {
+  border-style: none;
+  border-radius: 3px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #EF3E36;
+  background: white;
+  cursor: pointer;
+  letter-spacing: .5px;
+  -webkit-transition: background .3s ease-in;
+  transition: background .3s ease-in;
+}
+
+.secondary-btn:hover {
+  background: #ebebeb;
+}
+
+@media (max-width: 600px) {
+  .OurWork-grid-bottom {
+    padding: 80px 0;
+    grid-gap: 30px;
+        grid-template-areas: "box-1" "box-2" "box-3" "box-4";
+    -ms-grid-columns: repeat 1fr;
+        grid-template-columns: repeat 1fr;
+  }
+}
+
+.ContactUs {
+  padding: 60px 0;
+  background: #EF3E36;
+}
+
+.ContactUs p, .ContactUs h1 {
+  color: white;
+  text-align: center;
+}
+
+.ContactUs h1 {
+  line-height: 2.5rem;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+
+.ContactUs-container {
+  max-width: 500px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+form label {
+  font-size: 1.1rem;
+}
+
+form input, form textarea {
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  border-style: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 5px 0 13px 0;
+}
+/*# sourceMappingURL=ContactUs.css.map */

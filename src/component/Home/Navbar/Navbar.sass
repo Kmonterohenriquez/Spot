@@ -35,11 +35,25 @@
                     color: $black
 
 
+
             button  
                 margin-left: 20px
+        .menu-icon
+            color: $red
+            font-size: 1.8rem
+            display: none
 
 #active
     color: $red
 
+@media (max-width: 600px)
+    .Navbar
+        &-container
+            height: 60px
+
+            .menu-icon 
+                display: block
+        nav
+            display: none
 
 

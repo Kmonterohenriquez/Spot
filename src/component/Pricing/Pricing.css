@@ -1,6 +1,6 @@
 .Pricing {
   background: #F0F4F7;
-  padding: 70px 0;
+  padding: 200px 0 100px;
 }
 
 .Pricing-top-part {
@@ -32,7 +32,7 @@
   padding: 70px 0;
   display: -ms-grid;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 50px;
   justify-items: center;
   -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -52,11 +52,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 40px 80px;
+  padding: 50px 0px;
   border-radius: 20px;
   background: white;
   -webkit-box-shadow: 2px 2px 15px #00000018;
           box-shadow: 2px 2px 15px #00000018;
+  width: 100%;
 }
 
 .Pricing-grid .price-info:nth-child(1), .Pricing-grid .price-info:nth-child(3) {
@@ -64,11 +65,11 @@
 }
 
 .Pricing-grid .price-info:nth-child(2) {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .Pricing-grid .price-info:nth-child(2) button {
-  border: green 2px solid;
+  border: #EF3E36 2px solid;
 }
 
 .Pricing-grid .price-info .price span {
@@ -90,5 +91,17 @@
 
 .Pricing-grid .price-info button {
   margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .Pricing {
+    padding: 150px 0 80px;
+  }
+  .Pricing-grid {
+    grid-gap: 30px;
+  }
+  .Pricing-grid .price-info:nth-child(1), .Pricing-grid .price-info:nth-child(3), .Pricing-grid .price-info:nth-child(2) {
+    margin-top: 0px;
+  }
 }
 /*# sourceMappingURL=Pricing.css.map */

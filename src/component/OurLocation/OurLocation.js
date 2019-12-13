@@ -10,7 +10,7 @@ const OurLocation=()=>{
                 <div className="OurLocation-left-side">
                     <p className="red-paragraph">located all around</p>
                     <h1 className='title-1'>Our Locations</h1>
-                    <img src={location} alt="location picture" height="200"/>
+                    <img src={location} alt="location" height="200"/>
                     
                     <p className='address'>123 Main street, Orlando, Fl. 33897</p>
                     <p className='address'>123 Main street, Queen, NY. 30097</p>
