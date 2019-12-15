@@ -118,7 +118,7 @@
 }
 
 .ContactUs {
-  padding: 60px 0;
+  padding: 80px 0 60px;
   background: #EF3E36;
 }
 
@@ -134,25 +134,47 @@
 }
 
 .ContactUs-container {
-  max-width: 500px;
+  margin-top: 50px;
 }
 
 form {
-  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
   margin-top: 50px;
 }
 
 form label {
   font-size: 1.1rem;
+  text-align: left;
 }
 
 form input, form textarea {
-  min-width: 100%;
+  -webkit-box-shadow: 5px 5px 10px #00000039, 2px 2px 6px #EF3E36;
+          box-shadow: 5px 5px 10px #00000039, 2px 2px 6px #EF3E36;
   width: 100%;
   max-width: 100%;
   border-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 10px 15px;
   border-radius: 5px;
   margin: 5px 0 13px 0;
+}
+
+form div {
+  width: 100%;
+  max-width: 550px;
 }
 /*# sourceMappingURL=ContactUs.css.map */

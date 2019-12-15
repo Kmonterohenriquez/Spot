@@ -19,6 +19,14 @@
           align-items: center;
 }
 
+.Navbar-container a {
+  color: black;
+}
+
+.Navbar-container a:active {
+  color: black;
+}
+
 .Navbar-container #logo {
   letter-spacing: 2px;
   text-transform: uppercase;

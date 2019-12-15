@@ -5,7 +5,7 @@ function Navbar() {
 	return (
 		<header className='Navbar'>
             <div className='Navbar-container container'>
-                <p id='logo'><i className="line-logo fas fa-grip-lines-vertical"></i>Spot</p>
+                <Link to='/'><p id='logo'><i className="line-logo fas fa-grip-lines-vertical"></i>Spot</p></Link>
                 <nav>
                     <ul>
                         <li><Link to='/' id='active'>home</Link></li>
