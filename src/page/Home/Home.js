@@ -1,20 +1,19 @@
-
 import React, { Component } from 'react';
 
 import Upperline from '../../component/Home/Upperline/Upperline';
 import Navbar from '../../component/Home/Navbar/Navbar';
-import Showcase from '../../component/Showcase/Showcase'
-import Services from '../../component/Services/Services'
-import Planning from '../../component/Planning/Planning'
-import Brands from '../../component/Brands/Brands'
-import CEO from '../../component/CEO/CEO'
-import OurWork from '../../component/OurWork/OurWork'
-import Team from '../../component/Team/Team'
-import ContactLine from '../../component/ContactLine/ContactLine'
-import Pricing from '../../component/Pricing/Princing'
-import Blogs from '../../component/Blogs/Blogs'
-import OurLocation from '../../component/OurLocation/OurLocation'
-import ContactUs from '../../component/ContractUs/ContactUs'
+import Showcase from '../../component/Showcase/Showcase';
+import Services from '../../component/Services/Services';
+import Planning from '../../component/Planning/Planning';
+import Brands from '../../component/Brands/Brands';
+import CEO from '../../component/CEO/CEO';
+import OurWork from '../../component/OurWork/OurWork';
+import Team from '../../component/Team/Team';
+import ContactLine from '../../component/ContactLine/ContactLine';
+import Pricing from '../../component/Pricing/Princing';
+import Blogs from '../../component/Blogs/Blogs';
+import OurLocation from '../../component/OurLocation/OurLocation';
+import ContactUs from '../../component/ContractUs/ContactUs';
 
 class Home extends Component {
 	render() {
@@ -28,12 +27,12 @@ class Home extends Component {
 				<Brands />
 				<CEO />
 				<OurWork />
-				 <Team />
+				<Team />
 				<ContactLine />
 				<Pricing />
 				<Blogs />
-				{/*<ContactUs/>
-				<OurLocation /> */}
+				<ContactUs />
+				<OurLocation />
 			</div>
 		);
 	}

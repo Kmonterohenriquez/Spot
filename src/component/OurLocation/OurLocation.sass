@@ -1,15 +1,13 @@
 .OurLocation
     position: relative
     height: 550px
-    // background: red
-    &-container
-        // padding: 30px 0
-        display: grid
-        // justify-items: center
-        // align-items: center
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr))
 
+    &-container
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr))
+        grid-gap: 30px
     &-left-side
+        padding: 80px 0
         display: flex
         flex-direction: column
         justify-content: center
@@ -26,6 +24,9 @@
     iframe 
         height: 550px
         width: 100%
-        // position: absolute 
-        // bottom: 0
-        // right: 0
+
+@media (max-width: 600px)
+    .OurLocation
+        &-container
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+            grid-gap: 30px

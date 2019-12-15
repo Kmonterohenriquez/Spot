@@ -8,12 +8,12 @@ function Navbar() {
                 <p id='logo'><i className="line-logo fas fa-grip-lines-vertical"></i>Spot</p>
                 <nav>
                     <ul>
-                        <li><Link to='#' id='active'>home</Link></li>
-                        <li><Link to='#'>about</Link></li>
-                        <li><Link to='#'>team</Link></li>
-                        <li><Link to='#'>services</Link></li>
+                        <li><Link to='/' id='active'>home</Link></li>
+                        <li><Link to='/about'>about</Link></li>
+                        <li><Link to='/team'>team</Link></li>
+                        <li><Link to='/services'>services</Link></li>
                         <li>Pages<i className='fas fa-sort-down'></i></li>
-                        <li><Link to='#'>blog</Link></li>
+                        <li><Link to='/blog'>blog</Link></li>
                         <button className='primary-btn'>submit project</button>
                     </ul>
                 </nav>

@@ -17,7 +17,7 @@ class ContactUs extends Component {
                         <label htmlFor="timeline">timeline</label><br/>
                         <input id="timeline" type="text" placeholder='timeline'/><br/>
                         <label htmlFor="budget">Budget</label><br/>
-                        <input type="text" placeholder='$0'/><br/>
+                        <input type="number" placeholder='$0'/><br/>
                         {/* <label>I need help with...</label><br/>
                         <input type="checkbox" /><br/> */}
                         <textarea name="" id="" cols="30" rows="6" placeholder='Please write some details about your request...'></textarea>
