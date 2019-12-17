@@ -41,6 +41,21 @@ class Test extends Component {
 					<audio controls src={audio}></audio>
 					{/* 55D */}
 					<kevin className="cube-1"></kevin>
+					<ul>
+						<li>example 1</li>
+						<li>example 1</li>
+						<li>example 1</li>
+						<li>example 1</li>
+						<li>example 1</li>
+						<li>example 1</li>
+						<li>example 1</li>
+						<li>example 1</li>
+					</ul>
+
+					<div className="selector">
+						<h1>Title example</h1>
+						<p>Hola como estas?</p>
+					</div>
 				</div>
 			</div>
 		);

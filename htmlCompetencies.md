@@ -24,8 +24,8 @@
     22C-1	# ----> located at Pricing.sass 
     22C-2	.  ----> located at Pricing.sass 
     22C-3	" " (this is a space, not two quote marks)   ----> located at Pricing.sass 
-    22C-4	>
-    22C-5	+
+    22C-4	>  ----> located at Test.css 
+    22C-5	+  ----> located at Test.css 
 # CSS - Animation ----> located at Test.css 
     28C	keyframes 
     28D	transition

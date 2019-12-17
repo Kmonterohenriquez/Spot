@@ -59,3 +59,13 @@ input.focus:focus {
 		transform: rotate(360deg);
 	}
 }
+
+/* 22C-4 */
+ul > li{
+ color: red;
+}
+
+/* 22C-5 */
+.selector h1 + p{
+	color: green
+}
