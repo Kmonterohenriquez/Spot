@@ -4,7 +4,7 @@ import location from '../../img/Mapdark.png'
 
 const OurLocation=()=>{
     return(
-        <div className='OurLocation'>
+        <footer className='OurLocation'>
             <div className="OurLocation-container lg-container">
 
                 <div className="OurLocation-left-side">
@@ -22,7 +22,7 @@ const OurLocation=()=>{
             
             </div>
 
-        </div>
+        </footer>
     )
 }
 

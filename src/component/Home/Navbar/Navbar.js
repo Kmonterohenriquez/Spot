@@ -8,6 +8,7 @@ function Navbar() {
                 <Link to='/'><p id='logo'><i className="line-logo fas fa-grip-lines-vertical"></i>Spot</p></Link>
                 <nav>
                     <ul>
+                        {/* 54H */}
                         <li><Link to='/' id='active'>home</Link></li>
                         <li><Link to='/about'>about</Link></li>
                         <li><Link to='/team'>team</Link></li>

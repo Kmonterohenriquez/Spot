@@ -5,26 +5,29 @@ class ContactUs extends Component {
     state = {  }
     render() {
         return (
-            <div className="ContactUs">
+            // 54D-2
+            <section className="ContactUs">
                 <div className='ContactUs-container container'>
                     <p>contact us</p>
                     <h1>Submit a Project</h1>
                     <form>
                        <div>
                             <label htmlFor="fullname">Full Name</label>
-                            <input id="fullname" type="text" placeholder='Fullname'/>
+                            {/* 54G */}
+                            <input id="fullname" type="text" placeholder='Fullname' aria-label="FullName"/>
                        </div>
                        <div>
                             <label htmlFor="email">Email</label>
-                            <input id="email" type="email" placeholder='123@company.com'/>
+                            {/* 59C */}
+                            <input id="email" type="email" placeholder='123@company.com' aria-label="email"/>
                        </div>
                         <div>
                             <label htmlFor="timeline">timeline</label>
-                            <input id="timeline" type="text" placeholder='timeline'/>
+                            <input id="timeline" type="text" placeholder='timeline' aria-label="timeline"/>
                         </div>
                         <div>
                             <label htmlFor="budget">Budget</label>
-                            <input type="number" placeholder='$0'/>
+                            <input type="number" placeholder='$0' aria-label="Budget"/>
                         </div>
 
                         <div>
@@ -32,7 +35,7 @@ class ContactUs extends Component {
                             
                         </div></form>
                 </div>
-            </div>
+            </section>
         );
     }
 }

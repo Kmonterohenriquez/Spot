@@ -5,6 +5,8 @@ const Showcase =()=>{
     
     return(
         <div className="Showcase">
+            {/* 54E-2 */}
+            {/* 59E	 */}
             <img src={showcasePic} alt="showcase"/>
             <div className="content">
                 <h1 className="Showcase-title">

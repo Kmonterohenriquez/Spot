@@ -26,7 +26,10 @@
     22C-3	" " (this is a space, not two quote marks)   ----> located at Pricing.sass 
     22C-4	>
     22C-5	+
-
+# CSS - Animation ----> located at Test.css 
+    28C	keyframes 
+    28D	transition
+    28E	transform
 
 # CSS - Fancy effects
     30C	box-shadow all over the website
@@ -51,14 +54,60 @@
     54J	attributes ------> all the pictures on the website have it
 
 #  HTML - Elements (blocks)----> located at Pricing.js Component
-    54C-1	p
+    54C-1	p 
     54C-2	span
     54C-3	div
 
 # HTML - Elements (content)
     54E-1	lists ----> located at Navbar.js Component 
-    54E-2	images
+    54E-2	images ----> located at Showcase.js Component 
 
+# HTML - Elements (headers)  ----> located at Services.js Component 
+    54F-1	h1
+    54F-2	h2
+
+# HTML - Elements (link) ----> located at Navbar.js 
+    54H	link tag
+
+# HTML - Elements (sections
+    54D-1	article ----> located at Test.js 
+    54D-2	section ----> located at ContactUs.js 
+    54D-3	footer ----> located at OurLocation.js 
+
+# HTML - Elements (self closing)
+    54G	self closing tag  ----> located at ContactUs.js
+
+# HTML - Elements (skeleton) ----> located at index.html
+    54I-1	html 
+    54I-2	head
+    54I-3	body
+
+# HTML - Script
+    61C	script ----> located at index.html
+
+# HTML - Accessability
+    59C	ARIA  ----> located at ContactUs.js
+    59E	alt ----> located at Showcase.js
+
+# HTML - Semantics
+    56C	video ----> located at Test.js
+    56D	audio ----> located at Test.js
+
+# HTML - Meta data  ----> located at index.html
+    58C	title 
+    58D	description
+    58E	keywords
+    58G	viewport
+
+# HTML - SEO
+    60C	desc
+    60D	keywords
+    60E	pageRank
+
+# HTML - Semantics
+    55C	built-in tag
+    55D	custom tag
+    
 
 
 
