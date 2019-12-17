@@ -1,24 +1,32 @@
 @import '../../../general style/Colors'
 .Navbar
+
     border-bottom: #cacaca63 solid 1px
     &-container
         height: 80px
+        // 27G
         display: flex
+        // 27E
+        flex-wrap: wrap
+        // 27F
         flex-direction: columns
+        // 27C
         justify-content: space-between
+        // 27D
         align-items: center
-        a 
+        a
             color: black
-            &:active 
+            &:active
                 color: black
 
         #logo
             letter-spacing: 2px
             text-transform: uppercase
-            .line-logo 
+            .line-logo
+                // 23D-2
                 color: $red
+                // 23D-1
                 font-weight: bolder
-
 
         nav ul
             display: flex
@@ -29,21 +37,22 @@
                 font-size: 13px
                 text-transform: uppercase
                 font-weight: 600
-                
+
                 a
                     padding: 25px 12px
                     color: $black
-                
-                i 
+
+                i
                     margin-left: 5px
                     color: $black
 
-
-
-            button  
+            button
+                // 23E
+                background-color: $red
                 margin-left: 20px
         .menu-icon
             color: $red
+            // 23D-3
             font-size: 1.8rem
             display: none
 
@@ -55,9 +64,7 @@
         &-container
             height: 60px
 
-            .menu-icon 
+            .menu-icon
                 display: block
         nav
             display: none
-
-

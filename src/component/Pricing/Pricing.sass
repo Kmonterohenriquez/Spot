@@ -35,19 +35,24 @@
         background: white
         box-shadow: 2px 2px 15px #00000018
         width: 100%
-
+        // 26L
         &:nth-child(1), &:nth-child(3)
             margin-top: 40px
-
+            // 30D
+            background: linear-gradient(to top, #c31432, #240b36);
+            // clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+            clip-path: polygon(0 0, 100% 0, 100% 75%, 80% 92%, 50% 100%, 18% 92%, 0 75%);
+            .price, li
+                color: white
         &:nth-child(2)
             margin-bottom: 20px
             
             button  
                 border: $red 2px solid
-
+        // 22C-3
         .price span 
             font-size: 1.4rem
-
+        // 22C-2
         .price
             font-size: 2rem
             margin-bottom: 30px
@@ -61,7 +66,19 @@
 
         button 
             margin-top: 30px
-                 
+
+#secondary-btn
+    border-style: none
+    border-radius: 3px
+    padding: 15px 25px
+    text-transform: uppercase
+    font-size: 13px
+    color: $red
+    background: white
+    cursor: pointer
+    letter-spacing: .5px
+    transition: background .3s ease-in
+    border: 2px solid $red                
 
 
 @media (max-width: 600px)

@@ -5,8 +5,9 @@ const Pricing = () => {
 	return (
 		<div className='Pricing'>
 			<div className='container'>
-
+			{/* 54C-3 */}
 				<div className='Pricing-top-part'>
+					{/* 54C-1 */}
 					<p className='Pricing-phrase red-paragraph '>
 						Best prices on the market
 					</p>
@@ -22,7 +23,7 @@ const Pricing = () => {
 					<div className='price-info'>
 						<p className='price-info-title red-paragraph'>Basic</p>
 						<img src="https://assets.website-files.com/5dcc0b70294b8865063dcae6/5dceb736646791ae20a144dd_icons8-web.svg" alt="basic plan"/>
-						
+						{/* 54C-2 */}
 						<p className='price'><span className='red-paragraph'>$</span> 990</p>
 						<li>Lorem ipsum dolor sit </li>
 						<li>Lorem ipsum dolor sit amet.</li>
@@ -41,7 +42,7 @@ const Pricing = () => {
 						<li>Lorem ipsum dolor </li>
 						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor </li>
-						<button className='secondary-btn'>Choose Plan</button>
+						<button id='secondary-btn'>Choose Plan</button>
 						
 					</div>
 					<div className='price-info'>
