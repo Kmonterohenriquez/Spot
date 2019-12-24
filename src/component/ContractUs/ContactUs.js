@@ -22,7 +22,7 @@ class ContactUs extends Component {
                             <input id="email" type="email" placeholder='123@company.com' aria-label="email"/>
                        </div>
                         <div>
-                            <label htmlFor="timeline">timeline</label>
+                            <label htmlFor="timeline">Timeline</label>
                             <input id="timeline" type="text" placeholder='timeline' aria-label="timeline"/>
                         </div>
                         <div>

@@ -12,13 +12,11 @@ import Pricing from '../component/Pricing/Princing';
 import Blogs from '../component/Blogs/Blogs';
 import OurLocation from '../component/OurLocation/OurLocation';
 import ContactUs from '../component/ContractUs/ContactUs';
-import Test from '../component/Test/Test';
 
 class Home extends Component {
 	render() {
 		return (
 			<div className='Home'>
-			
 				<Showcase />
 				<Services />
 				<Planning />
@@ -30,7 +28,7 @@ class Home extends Component {
 				<Pricing />
 				<Blogs />
 				<ContactUs />
-				<Test />
+
 				<OurLocation />
 			</div>
 		);
