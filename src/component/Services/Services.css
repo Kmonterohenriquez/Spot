@@ -90,7 +90,7 @@
 }
 
 .primary-btn:hover {
-  background: #ebebeb;
+  background: #c91810;
 }
 
 @media (max-width: 600px) {
@@ -104,10 +104,11 @@
 }
 
 .Services {
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 
 .Services-grid {
+  padding: 100px 0;
   width: 90%;
   display: -ms-grid;
   display: grid;

@@ -90,7 +90,7 @@
 }
 
 .primary-btn:hover {
-  background: #ebebeb;
+  background: #c91810;
 }
 
 @media (max-width: 600px) {
@@ -104,7 +104,7 @@
 }
 
 .Team {
-  padding: 150px 0;
+  padding-bottom: 150px;
 }
 
 .Team-top {

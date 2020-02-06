@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './Team.css';
+import PageTitle from '../PageTitle/PageTitle';
+import { withRouter } from 'react-router-dom';
 
 class Team extends Component {
-	state = {};
 	render() {
+		const location = this.props.location.pathname;
 		return (
 			<div className='Team'>
+				{location === '/' ? null : <PageTitle title='Team' />}
 				<div className='container'>
 					<p className='red-paragraph'>best team ever</p>
 					<div className='Team-top'>
@@ -28,7 +31,7 @@ class Team extends Component {
 										<i className='fab fa-instagram'></i>
 									</div>
 									<div className='circle'>
-										<i class='fab fa-linkedin-in'></i>
+										<i className='fab fa-linkedin-in'></i>
 									</div>
 								</div>
 							</div>
@@ -48,7 +51,7 @@ class Team extends Component {
 										<i className='fab fa-instagram'></i>
 									</div>
 									<div className='circle'>
-										<i class='fab fa-linkedin-in'></i>
+										<i className='fab fa-linkedin-in'></i>
 									</div>
 								</div>
 							</div>
@@ -68,7 +71,7 @@ class Team extends Component {
 										<i className='fab fa-instagram'></i>
 									</div>
 									<div className='circle'>
-										<i class='fab fa-linkedin-in'></i>
+										<i className='fab fa-linkedin-in'></i>
 									</div>
 								</div>
 							</div>
@@ -80,4 +83,4 @@ class Team extends Component {
 	}
 }
 
-export default Team;
+export default withRouter(Team);
