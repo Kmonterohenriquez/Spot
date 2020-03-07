@@ -1,6 +1,6 @@
 @import '../../../general style/Colors'
 .Navbar
-
+    position: relative
     border-bottom: #cacaca63 solid 1px
     &-container
         height: 80px
@@ -28,7 +28,7 @@
                 // 23D-1
                 font-weight: bolder
 
-        nav ul
+        .lg-menu ul
             display: flex
             align-items: center
 
@@ -55,6 +55,35 @@
             // 23D-3
             font-size: 1.8rem
             display: none
+    .sm-menu
+        width: 100vw
+        overflow: hidden
+        height: calc(100vh - 145px)
+        min-height: 150px
+        background: white
+        position: absolute
+        top: 61px
+        left: 0
+        // padding: 10px 30px
+
+        z-index: 9
+        display: flex
+        flex-direction: column 
+        justify-content: center 
+        align-items: center
+        ul 
+            // padding: 40px
+            display: flex 
+            flex-direction: column 
+            justify-content: center 
+            align-items: center
+        li 
+            list-style: none
+            text-transform: uppercase 
+            font-weight: 700
+            margin: 20px 0
+            font-size: 1.1rem
+            
 
 #active
     color: $red
@@ -66,5 +95,5 @@
 
             .menu-icon
                 display: block
-        nav
+        .lg-menu
             display: none

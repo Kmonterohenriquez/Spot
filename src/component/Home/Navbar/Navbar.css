@@ -1,4 +1,5 @@
 .Navbar {
+  position: relative;
   border-bottom: #cacaca63 solid 1px;
 }
 
@@ -39,7 +40,7 @@
   font-weight: bolder;
 }
 
-.Navbar-container nav ul {
+.Navbar-container .lg-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,24 +49,24 @@
           align-items: center;
 }
 
-.Navbar-container nav ul li {
+.Navbar-container .lg-menu ul li {
   list-style: none;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.Navbar-container nav ul li a {
+.Navbar-container .lg-menu ul li a {
   padding: 25px 12px;
   color: #121217;
 }
 
-.Navbar-container nav ul li i {
+.Navbar-container .lg-menu ul li i {
   margin-left: 5px;
   color: #121217;
 }
 
-.Navbar-container nav ul button {
+.Navbar-container .lg-menu ul button {
   background-color: #EF3E36;
   margin-left: 20px;
 }
@@ -74,6 +75,55 @@
   color: #EF3E36;
   font-size: 1.8rem;
   display: none;
+}
+
+.Navbar .sm-menu {
+  width: 100vw;
+  overflow: hidden;
+  height: calc(100vh - 145px);
+  min-height: 150px;
+  background: white;
+  position: absolute;
+  top: 61px;
+  left: 0;
+  z-index: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navbar .sm-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navbar .sm-menu li {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0;
+  font-size: 1.1rem;
 }
 
 #active {
@@ -87,7 +137,7 @@
   .Navbar-container .menu-icon {
     display: block;
   }
-  .Navbar nav {
+  .Navbar .lg-menu {
     display: none;
   }
 }
