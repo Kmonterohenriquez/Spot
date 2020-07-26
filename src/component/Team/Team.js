@@ -1,86 +1,31 @@
-import React, { Component } from 'react';
-import './Team.css';
-import PageTitle from '../PageTitle/PageTitle';
-import { withRouter } from 'react-router-dom';
+import React, { Component } from "react";
+import "./Team.css";
+import PageTitle from "../PageTitle/PageTitle";
+import { withRouter } from "react-router-dom";
+import Person from "./Person/Person";
+import teamData from "./Person/PersonData";
 
 class Team extends Component {
-	render() {
-		const location = this.props.location.pathname;
-		return (
-			<div className='Team'>
-				{location === '/' ? null : <PageTitle title='Team' />}
-				<div className='container'>
-					<p className='red-paragraph'>best team ever</p>
-					<div className='Team-top'>
-						<h1 className='title-1'>The team</h1>
-						<button className='primary-btn'>join us</button>
-					</div>
-					<div className='grid-team'>
-						<div className='member'>
-							<div className='picture-container'>
-								<img src='#' alt='#' />
-							</div>
-							<div className='Team-content'>
-								<p className='member-name'>person name</p>
-								<p className='red-paragraph position-job'>position job</p>
-								<div className='social-media'>
-									<div className='circle'>
-										<i className='fab fa-twitter'></i>
-									</div>
-									<div className='circle'>
-										<i className='fab fa-instagram'></i>
-									</div>
-									<div className='circle'>
-										<i className='fab fa-linkedin-in'></i>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className='member'>
-							<div className='picture-container'>
-								<img src='#' alt='#' />
-							</div>
-							<div className='Team-content'>
-								<p className='member-name'>person name</p>
-								<p className='red-paragraph'>position job</p>
-								<div className='social-media'>
-									<div className='circle'>
-										<i className='fab fa-twitter'></i>
-									</div>
-									<div className='circle'>
-										<i className='fab fa-instagram'></i>
-									</div>
-									<div className='circle'>
-										<i className='fab fa-linkedin-in'></i>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className='member'>
-							<div className='picture-container'>
-								<img src='#' alt='#' />
-							</div>
-							<div className='Team-content'>
-								<p className='member-name'>person name</p>
-								<p className='red-paragraph'>position job</p>
-								<div className='social-media'>
-									<div className='circle'>
-										<i className='fab fa-twitter'></i>
-									</div>
-									<div className='circle'>
-										<i className='fab fa-instagram'></i>
-									</div>
-									<div className='circle'>
-										<i className='fab fa-linkedin-in'></i>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		);
-	}
+  render() {
+    const location = this.props.location.pathname;
+    return (
+      <div className="Team">
+        {location === "/" ? null : <PageTitle title="Team" />}
+        <div className="container">
+          <p className="red-paragraph">best team ever</p>
+          <div className="Team-top">
+            <h1 className="title-1">The team</h1>
+            <button className="primary-btn">join us</button>
+          </div>
+          <div className="grid-team">
+            {teamData.map((person) => (
+              <Person key={person.id} person={person} />
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default withRouter(Team);
