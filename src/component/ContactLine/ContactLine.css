@@ -62,7 +62,7 @@
   color: #e3e3e3;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
   .ContactLine {
     padding: 80px 0;
     background: #EF3E36;
