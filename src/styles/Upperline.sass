@@ -1,0 +1,40 @@
+@import '../../../general style/Colors'
+@import '../../../App'
+
+.Upperline
+    background: $Upperline-bg
+
+    &-container
+        @include center(space-between)
+        padding: 10px 0
+        
+        p
+            font-size: .8rem
+            color: $grey
+        
+        i 
+            font-size: .9rem
+            color: white
+
+    .social-media 
+        @include center(space-between)
+        
+        .circle
+            @include center (center)
+            background: #3B383A
+            height: 35px
+            width: 35px
+            border-radius: 50%
+            margin-left: 10px
+
+            &:hover 
+                background: $red
+
+@media (max-width: 600px)
+    .Upperline
+        &-container
+            flex-direction: column
+        .social-media 
+            margin-top: 10px
+
+        
