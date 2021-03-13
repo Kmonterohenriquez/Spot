@@ -1,5 +1,5 @@
 import React from "react";
-import '../Team.sass'
+import '../styles/Team.sass'
 const Person = ({ person }) => {
   return (
     <div className="member">

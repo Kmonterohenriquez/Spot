@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Services from '../component/Services/Services';
-import ContactUs from '../component/ContractUs/ContactUs';
-import OurLocation from '../component/OurLocation/OurLocation';
+import Services from '../components/Services';
+import ContactUs from '../components/ContactUs';
+import OurLocation from '../components/OurLocation';
 
 const ServicesPage = () => {
 	return (

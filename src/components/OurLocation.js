@@ -1,6 +1,6 @@
 import React from 'react';
-import './OurLocation.css'
-import location from '../../img/Mapdark.png'
+import '../styles/OurLocation.sass'
+import location from '../img/Mapdark.png'
 
 const OurLocation=()=>{
     return(

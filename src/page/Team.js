@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Team from '../component/Team/Team';
-import Brands from '../component/Brands/Brands';
-import ContactLine from '../component/ContactLine/ContactLine';
-import OurLocation from '../component/OurLocation/OurLocation';
+import Team from '../components/Team';
+import Brands from '../components/Brands';
+import ContactLine from '../components/ContactLine';
+import OurLocation from '../components/OurLocation';
 
 const TeamPage = () => {
 	return (

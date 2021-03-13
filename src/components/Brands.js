@@ -1,5 +1,5 @@
 import React from 'react';
-import './Brands.css'
+import '../styles/Brands.sass'
 
 function Brands() {
 	return (

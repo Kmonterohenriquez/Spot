@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
-import Showcase from '../component/Showcase/Showcase';
-import Services from '../component/Services/Services';
-import Planning from '../component/Planning/Planning';
-import Brands from '../component/Brands/Brands';
-import CEO from '../component/CEO/CEO';
-import OurWork from '../component/OurWork/OurWork';
-import Team from '../component/Team/Team';
-import ContactLine from '../component/ContactLine/ContactLine';
-import Pricing from '../component/Pricing/Princing';
-import Blogs from '../component/Blogs/Blogs';
-import OurLocation from '../component/OurLocation/OurLocation';
-import ContactUs from '../component/ContractUs/ContactUs';
+import Showcase from '../components/Showcase';
+import Services from '../components/Services';
+import Planning from '../components/Planning';
+import Brands from '../components/Brands';
+import CEO from '../components/CEO';
+import OurWork from '../components/OurWork';
+import Team from '../components/Team';
+import ContactLine from '../components/ContactLine';
+import Pricing from '../components/Princing';
+import Blogs from '../components/Blogs';
+import OurLocation from '../components/OurLocation';
+import ContactUs from '../components/ContactUs';
 
 class Home extends Component {
 	render() {

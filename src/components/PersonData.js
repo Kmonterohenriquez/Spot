@@ -1,6 +1,6 @@
-import person1 from "../../../img/person1.jpg";
-import person2 from "../../../img/person2.jpg";
-import person3 from "../../../img/person3.jpg";
+import person1 from "../img/person1.jpg";
+import person2 from "../img/person2.jpg";
+import person3 from "../img/person3.jpg";
 export default [
   {
     id: 1,

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ContactLine.css'
+import '../styles/ContactLine.sass'
 
 const ContactLine = () => {
 	return (

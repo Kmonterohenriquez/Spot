@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./Team.css";
-import PageTitle from "../PageTitle/PageTitle";
+import "../styles/Team.sass";
+import PageTitle from "./PageTitle";
 import { withRouter } from "react-router-dom";
 import Person from "./Person";
 import teamData from "./PersonData";

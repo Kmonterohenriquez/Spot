@@ -1,8 +1,8 @@
 import React from 'react'
-import Blogs from '../component/Blogs/Blogs';
-import ContactLine from '../component/ContactLine/ContactLine';
-import OurLocation from '../component/OurLocation/OurLocation';
-import PageTitle from '../component/PageTitle/PageTitle'
+import Blogs from '../components//Blogs';
+import ContactLine from '../components/ContactLine';
+import OurLocation from '../components/OurLocation';
+import PageTitle from '../components/PageTitle'
 
 const Blog=()=>{
     return (

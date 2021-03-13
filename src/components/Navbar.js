@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Navbar.css'
+import '../styles/Navbar.sass'
 import { Link } from 'react-router-dom'
 function Navbar() {
     const [menuToggle, setMenuToggle] = useState(false);

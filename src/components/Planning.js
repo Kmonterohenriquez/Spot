@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Planning.css'
-import planning_img from '../../img/planning.png';
+import '../styles/Planning.sass'
+import planning_img from '../img/planning.png';
 class Planning extends Component {
 	state = {};
 	render() {

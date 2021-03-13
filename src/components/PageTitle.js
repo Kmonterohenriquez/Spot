@@ -1,5 +1,5 @@
 import React from 'react';
-import './PageTitle.sass'
+import '../styles/PageTitle.sass'
 const PageTitle = props => {
 	return (
 		<div className='PageTitle'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './CEO.css'
+import '../styles/CEO.sass'
 function CEO() {
 	return (
 		<div className='CEO'>

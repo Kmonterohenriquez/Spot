@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ContactUs.css'
+import '../styles/ContactUs.sass'
 
 class ContactUs extends Component {
     state = {  }

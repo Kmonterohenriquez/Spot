@@ -1,6 +1,6 @@
 import React from 'react';
-import './OurWork.css';
-import '../../App.css'
+import '../styles/OurWork.sass';
+import '../App.sass'
 
 function OurWork() {
 	return (

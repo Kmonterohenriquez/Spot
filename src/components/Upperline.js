@@ -1,5 +1,5 @@
 import React from 'react';
-import './Upperline.css'
+import '../styles/Upperline.sass'
 
 export default function Upperline() {
 	return (

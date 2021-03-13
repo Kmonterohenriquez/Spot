@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Services.css';
-import PageTitle from '../PageTitle/PageTitle';
+import '../styles/Services.sass';
+import PageTitle from './PageTitle';
 import { withRouter } from 'react-router-dom';
 class Services extends Component {
 	render() {

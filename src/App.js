@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css';
+import './App.sass';
 import router from './router'
 
 // Add Component
-import Upperline from './component/Home/Upperline/Upperline';
-import Navbar from './component/Home/Navbar/Navbar';
+import Upperline from './components/Upperline';
+import Navbar from './components/Navbar';
 
 function App() {
   return (

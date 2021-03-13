@@ -1,9 +1,9 @@
 import React from 'react';
-import PageTitle from '../component/PageTitle/PageTitle'
-import Planning from '../component/Planning/Planning';
-import CEO from '../component/CEO/CEO';
-import ContactLine from '../component/ContactLine/ContactLine';
-import OurLocation from '../component/OurLocation/OurLocation';
+import PageTitle from '../components/PageTitle'
+import Planning from '../components/Planning';
+import CEO from '../components/CEO';
+import ContactLine from '../components/ContactLine';
+import OurLocation from '../components/OurLocation';
 
 
 const About = () => {
