@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./Team.css";
 import PageTitle from "../PageTitle/PageTitle";
 import { withRouter } from "react-router-dom";
-import Person from "./Person/Person";
-import teamData from "./Person/PersonData";
+import Person from "./Person";
+import teamData from "./PersonData";
 
 class Team extends Component {
   render() {
