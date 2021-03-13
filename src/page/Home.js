@@ -23,7 +23,9 @@ class Home extends Component {
 				<Brands />
 				<CEO />
 				<OurWork />
-				<Team />
+				<div style={styles}>
+					<Team />
+				</div>
 				<ContactLine />
 				<Pricing />
 				<Blogs />
@@ -33,6 +35,11 @@ class Home extends Component {
 			</div>
 		);
 	}
+}
+
+const styles ={
+	padding: 150, 
+	paddingBottom: 150
 }
 
 export default Home;
