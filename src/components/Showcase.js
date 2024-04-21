@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Showcase.sass'
-import showcasePic from '../img/showcase.png'
+import showcasePic from '../img/showcase2.webp'
 const Showcase =()=>{
     
     return(

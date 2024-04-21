@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Blogs.sass'
-import blogPic from '../img/blog.jpg'
+import blogPic from '../img/blog.webp'
 
 const Blogs =()=>{
     return(
